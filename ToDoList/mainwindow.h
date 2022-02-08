@@ -15,6 +15,13 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_addItemButton_clicked();
+
+    void on_removeItemButton_clicked();
+
+    void on_removeAllButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
